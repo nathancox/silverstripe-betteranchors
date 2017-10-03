@@ -1,0 +1,17 @@
+{
+	"name": "nathancox/betterbuttons",
+	"description": "A SilverStripe module to add extra anchors to the insert link dialog",
+	"type": "silverstripe-module",
+	"homepage": "https://github.com/nathancox/silverstripe-betterbuttons",
+	"keywords": ["silverstripe", "cms"],
+	"license": "BSD-3-Clause",
+	"authors": [
+		{"name": "Nathan Cox","email": "me@nathan.net.nz"}
+	],
+	"support": {
+		"issues": "https://github.com/nathancox/silverstripe-betterbuttons/issues"
+	},
+	"require": {
+		"silverstripe/cms": "~3.4"
+	}
+}

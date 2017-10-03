@@ -1,0 +1,15 @@
+---
+Name: betteranchors
+After:
+  - 'framework/*'
+  - 'cms/*'
+---
+SiteTreeLinkTracking:
+  dependencies:
+    parser: "%$BetterAnchors\SiteTreeLinkTracking_Parser"
+LeftAndMain:
+  extra_requirements_javascript:
+    - betteranchors/javascript/betteranchors.js
+HtmlEditorField:
+  extensions:
+    - BetterAnchors\HtmlEditorFieldExtension
