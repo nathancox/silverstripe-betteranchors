@@ -1,6 +1,7 @@
 <?php
 
 namespace BetterAnchors;
+use SS_HTMLValue;
 
 class SiteTreeLinkTracking_Parser extends \SiteTreeLinkTracking_Parser
 {
